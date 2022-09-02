@@ -6,6 +6,7 @@
 //
 
 //inflean 4강
+// 9월 3일 시작 목표~
 import UIKit
 
 class ViewController: UIViewController {
