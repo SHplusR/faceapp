@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		722A19B228C27616008DFDAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A19B128C27616008DFDAC /* AppDelegate.swift */; };
 		722A19B428C27616008DFDAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A19B328C27616008DFDAC /* SceneDelegate.swift */; };
-		722A19B628C27616008DFDAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A19B528C27616008DFDAC /* ViewController.swift */; };
+		722A19B628C27616008DFDAC /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A19B528C27616008DFDAC /* FaceViewController.swift */; };
 		722A19B928C27616008DFDAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722A19B728C27616008DFDAC /* Main.storyboard */; };
 		722A19BB28C27618008DFDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722A19BA28C27618008DFDAC /* Assets.xcassets */; };
 		722A19BE28C27618008DFDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722A19BC28C27618008DFDAC /* LaunchScreen.storyboard */; };
 		722A19C928C27618008DFDAC /* faceappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A19C828C27618008DFDAC /* faceappTests.swift */; };
 		722A19D328C27618008DFDAC /* faceappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A19D228C27618008DFDAC /* faceappUITests.swift */; };
 		722A19D528C27618008DFDAC /* faceappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A19D428C27618008DFDAC /* faceappUITestsLaunchTests.swift */; };
+		7290022628CB7D3C003A6772 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290022528CB7D3C003A6772 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		722A19AE28C27616008DFDAC /* faceapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faceapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		722A19B128C27616008DFDAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		722A19B328C27616008DFDAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		722A19B528C27616008DFDAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		722A19B528C27616008DFDAC /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		722A19B828C27616008DFDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		722A19BA28C27618008DFDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		722A19BD28C27618008DFDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		722A19CE28C27618008DFDAC /* faceappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faceappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		722A19D228C27618008DFDAC /* faceappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceappUITests.swift; sourceTree = "<group>"; };
 		722A19D428C27618008DFDAC /* faceappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7290022528CB7D3C003A6772 /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,10 @@
 		722A19B028C27616008DFDAC /* faceapp */ = {
 			isa = PBXGroup;
 			children = (
-				722A19B128C27616008DFDAC /* AppDelegate.swift */,
-				722A19B328C27616008DFDAC /* SceneDelegate.swift */,
-				722A19B528C27616008DFDAC /* ViewController.swift */,
+				7290022428CB7C07003A6772 /* support */,
+				722A19B528C27616008DFDAC /* FaceViewController.swift */,
 				722A19B728C27616008DFDAC /* Main.storyboard */,
-				722A19BA28C27618008DFDAC /* Assets.xcassets */,
-				722A19BC28C27618008DFDAC /* LaunchScreen.storyboard */,
-				722A19BF28C27618008DFDAC /* Info.plist */,
+				7290022528CB7D3C003A6772 /* FaceView.swift */,
 			);
 			path = faceapp;
 			sourceTree = "<group>";
@@ -125,6 +124,18 @@
 				722A19D428C27618008DFDAC /* faceappUITestsLaunchTests.swift */,
 			);
 			path = faceappUITests;
+			sourceTree = "<group>";
+		};
+		7290022428CB7C07003A6772 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				722A19BA28C27618008DFDAC /* Assets.xcassets */,
+				722A19BC28C27618008DFDAC /* LaunchScreen.storyboard */,
+				722A19BF28C27618008DFDAC /* Info.plist */,
+				722A19B328C27616008DFDAC /* SceneDelegate.swift */,
+				722A19B128C27616008DFDAC /* AppDelegate.swift */,
+			);
+			path = support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				722A19B628C27616008DFDAC /* ViewController.swift in Sources */,
+				722A19B628C27616008DFDAC /* FaceViewController.swift in Sources */,
 				722A19B228C27616008DFDAC /* AppDelegate.swift in Sources */,
 				722A19B428C27616008DFDAC /* SceneDelegate.swift in Sources */,
+				7290022628CB7D3C003A6772 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
