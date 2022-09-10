@@ -101,7 +101,11 @@
 		722A19B028C27616008DFDAC /* faceapp */ = {
 			isa = PBXGroup;
 			children = (
-				7290022428CB7C07003A6772 /* support */,
+				722A19BA28C27618008DFDAC /* Assets.xcassets */,
+				722A19BC28C27618008DFDAC /* LaunchScreen.storyboard */,
+				722A19BF28C27618008DFDAC /* Info.plist */,
+				722A19B328C27616008DFDAC /* SceneDelegate.swift */,
+				722A19B128C27616008DFDAC /* AppDelegate.swift */,
 				722A19B528C27616008DFDAC /* FaceViewController.swift */,
 				722A19B728C27616008DFDAC /* Main.storyboard */,
 				7290022528CB7D3C003A6772 /* FaceView.swift */,
@@ -124,18 +128,6 @@
 				722A19D428C27618008DFDAC /* faceappUITestsLaunchTests.swift */,
 			);
 			path = faceappUITests;
-			sourceTree = "<group>";
-		};
-		7290022428CB7C07003A6772 /* support */ = {
-			isa = PBXGroup;
-			children = (
-				722A19BA28C27618008DFDAC /* Assets.xcassets */,
-				722A19BC28C27618008DFDAC /* LaunchScreen.storyboard */,
-				722A19BF28C27618008DFDAC /* Info.plist */,
-				722A19B328C27616008DFDAC /* SceneDelegate.swift */,
-				722A19B128C27616008DFDAC /* AppDelegate.swift */,
-			);
-			path = support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
